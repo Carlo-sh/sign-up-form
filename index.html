@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Odin Form</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="left-container">
+            <div class="logo-wrapper">
+                <img src="./odin-lined.png" alt="Odin logo">
+                <h1>ODIN</h1>
+            </div>
+            <div class="logo-container"></div>
+            <p>Photo by <a href="https://unsplash.com/it/@haliewestphoto" target="_blank">Halie West</a> on <a
+                    href="https://unsplash.com/it" target="_blank">Unsplash</a></p>
+        </div>
+        <div class="right-container">
+            <div class="description">
+                <p>
+                    This is not a real online service! You know you need something like this in your life
+                    to help you realize your deepest dreams. Sign up <em>now</em> to get started.
+                    <br>
+                    <br>
+                    You <em>know</em> you want to.
+                </p>
+            </div>
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Let's do this!</legend>
+                    <div class="input-container">
+                        <div class="input-wrapper">
+                            <label for="first-name">FIRST NAME</label>
+                            <input type="text" required>
+                        </div>
+                        <div class="input-wrapper">
+                            <label for="last-name">LAST NAME</label>
+                            <input type="text" required>
+                        </div>
+                        <div class="input-wrapper">
+                            <label for="email">EMAIL</label>
+                            <input type="email" required>
+                        </div>
+                        <div class="input-wrapper">
+                            <label for="phone-number">PHONE NUMBER</label>
+                            <input type="tel" required>
+                        </div>
+                        <div class="input-wrapper">
+                            <label for="password">PASSWORD</label>
+                            <input type="password" pattern="[0-9a-zA-Z]{8,12}" required>
+                        </div>
+                        <div class="input-wrapper">
+                            <label for="confirm-password">CONFIRM PASSWORD</label>
+                            <input type="password" pattern="[0-9a-zA-Z]{8,12}" required>
+                        </div>
+                    </div>
+                </fieldset>
+            </form>
+            <div class="bottom">
+                <button type="submit">Create Account</button>
+                <p>Already have an account? <a href="#">Log in</a></p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

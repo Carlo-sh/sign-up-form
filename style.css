@@ -1,0 +1,176 @@
+@font-face {
+	font-family: NorseBold;
+	src: url(./Norse-Bold.otf);
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html,
+body {
+	height: 100%;
+}
+
+.container {
+	display: flex;
+	height: 100%;
+}
+
+.left-container,
+.right-container {
+	height: 100%;
+}
+
+.left-container {
+	width: 33.4%;
+	background: url(./halie-west-25xggax4bSA-unsplash.jpg);
+	background-size: cover;
+}
+
+.logo-container {
+	height: 18%;
+	width: 100%;
+	background-color: black;
+	opacity: 0.5;
+	position: relative;
+	top: 25%;
+}
+
+.logo-wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 18%;
+	width: 33.4%;
+	position: absolute;
+	top: 25%;
+	z-index: 2;
+}
+
+.logo-wrapper h1 {
+	color: #fff;
+	font-family: 'NorseBold', sans-serif;
+	font-size: 4rem;
+}
+
+.logo-wrapper img {
+	max-height: 80%;
+	width: auto;
+}
+
+.left-container p {
+	color: #fff;
+	font-family: sans-serif;
+	font-size: 0.8rem;
+	text-align: center;
+	position: relative;
+	top: 78%;
+}
+
+.left-container p a {
+	color: #fff;
+}
+
+.right-container {
+	width: 66.6%;
+}
+
+form {
+	height: 45%;
+	box-shadow: 0px 10px 15px -4px #000000;
+}
+
+.description {
+	background-color: #f8f8f8;
+	height: 30%;
+	font-family: sans-serif;
+	font-weight: 600;
+	display: flex;
+	align-items: center;
+}
+
+.description p {
+	max-width: 70%;
+	padding-left: 3rem;
+}
+
+.input-container {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	row-gap: 1.1rem;
+	margin-top: 1.5rem;
+	padding-left: 3rem;
+}
+
+.input-wrapper {
+	display: flex;
+	flex-direction: column;
+	font-family: sans-serif;
+	gap: 0.3rem;
+}
+
+fieldset {
+	border: none;
+}
+
+legend {
+	font-family: sans-serif;
+	font-weight: 600;
+	padding-left: 3rem;
+	padding-top: 1.2rem;
+}
+
+label {
+	font-size: 0.7rem;
+	font-weight: 600;
+}
+
+input {
+	width: 70%;
+	height: 1.3rem;
+	border: 1px solid gray;
+	padding: 0 0.4rem;
+}
+
+input:focus {
+	outline: 1px solid blue;
+	box-shadow: 0px 0px 10px 4px blue;
+}
+
+.bottom {
+	height: 25%;
+}
+
+.bottom p {
+	padding-left: 3rem;
+	font-family: sans-serif;
+	font-size: 0.8rem;
+	margin-top: 1.2rem;
+	font-weight: 600;
+}
+
+.bottom p a {
+	color: #596d48;
+	text-decoration: none;
+}
+
+button {
+	height: 2.2rem;
+	width: 170px;
+	color: #fff;
+	background-color: #596d48;
+	font-weight: 800;
+	border: none;
+	border-radius: 10px;
+	margin-top: 2rem;
+	margin-left: 3rem;
+}
+
+button:hover {
+	color: #596d48;
+	background-color: #fff;
+	border: 1px solid #596d48;
+}
