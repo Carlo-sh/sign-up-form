@@ -64,6 +64,10 @@ small {
   text-transform: capitalize;
 }
 
+small a {
+  color: #ffffff;
+}
+
 /* right section */
 #right-container {
   min-height: 100%;
@@ -135,6 +139,12 @@ input {
   height: 32px;
 }
 
+input:focus {
+  box-shadow: 0px 0px 4px 0px #939496;
+  outline: none;
+  border: 2px solid #5e84d1;
+}
+
 label {
   text-transform: uppercase;
   letter-spacing: 0.2ch;
@@ -161,8 +171,19 @@ button {
   margin-bottom: 2rem;
 }
 
+button:hover {
+  background-color: #7ba677;
+  cursor: pointer;
+  box-shadow: 0px 0px 6px 0px #939496;
+}
+
 p > a {
   color: #596d48;
   font-weight: bold;
   text-decoration: none;
+}
+
+#password:invalid,
+#confirm-password:invalid {
+  border: 2px solid #ff0000;
 }

@@ -56,14 +56,20 @@
               </div>
               <div>
                 <label for="password">password</label>
-                <input type="password" name="password" id="password" />
+                <input
+                  type="password"
+                  name="password"
+                  id="password"
+                  pattern=".{8,}"
+                />
               </div>
               <div>
-                <label for="confirm-pwd">confirm password</label>
+                <label for="confirm-password">confirm password</label>
                 <input
                   type="password"
                   name="confirm-password"
                   id="confirm-password"
+                  pattern=".{8,}"
                 />
               </div>
             </div>
